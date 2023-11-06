@@ -192,3 +192,11 @@ a:hover{
     justify-self: center;
 }
 
+.newsletter button {
+    background-color: #5A67D8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
