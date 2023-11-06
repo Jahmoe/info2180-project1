@@ -84,7 +84,7 @@ a:hover{
     padding-top: 40px;
 }  
 
-/* Third section- Learn about */
+/* Third section - Learn about columns */
 .learn-about .container{
     padding-top: 40px;
     padding-bottom: 70px;
@@ -116,7 +116,7 @@ a:hover{
     padding-left: 10px;
 }
 
-/* Fourth section- Covid-19 testing programme */
+/* Fourth section - Covid-19 testing programme */
 .testing {
     background-color: #4A5568;
     padding-top: 60px;
@@ -149,7 +149,7 @@ a:hover{
     max-width: 550px;
 }
 
-/* Fifth section- Articles */
+/* Fifth section - Articles */
 .article {
     display: flex;
 }
