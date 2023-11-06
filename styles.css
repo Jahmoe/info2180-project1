@@ -8,4 +8,195 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif
+}
+
+/* First section- Heading*/
+header {
+    background-color: #fffcfc; 
+    color: #171616; 
+    padding: 15px; 
+    text-align: left; 
+}    
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{ 
+    font-size: 18px;
+    float: left;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+}
+li{
+    font-size: 18px;
+    display: inline;
+}
+header li a{
+    text-decoration: none;
+}
+header nav a{
+    color: #6b7280;
+}
+header nav ul li {
+    margin-left: 15px
+}
+a:hover{
+    color: #5A67D8;
+}
+
+
+/* Second section- Overview*/
+.overview-hero-image img{
+    position: left;
+    top: 30px; 
+    left: 30px;
+}
+
+.overview-hero-text {
+    float: left;
+
+}
+.overview-hero{
+    background-color: #E2E8F0 ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: left;
+    display: flex;
+}
+.overview-hero .container{
+    display: flex;
+}
+.overview-hero .container img{
+    width: 300px; height: 200px;
+    padding-right: 50px;
+    float: left;
+}
+.overview-hero-text {
+    max-width: 500px;
+    padding-top: 40px;
+}  
+
+/* Third section- Learn about */
+.learn-about .container{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78; 
+}
+.learn-about .card-body h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.card img{
+    margin: 0 auto;
+    height: 240px;
+    width: 100%;
+}
+.card{
+    border: 2px solid #E2E8F0;
+    box-shadow: 5px 5px #E2E8F0;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    padding-left: 10px;
+}
+
+/* Fourth section- Covid-19 testing programme */
+.testing {
+    background-color: #4A5568;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+}
+.testing .container {
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.testing .cta a{
+    background-color: #48BB78;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+.testing-desciption h2{
+
+    color: white;
+}
+
+.testing .testing-desciption p {
+   align-items: center;
+    color: white;
+    max-width: 550px;
+}
+
+/* Fifth section- Articles */
+.article {
+    display: flex;
+}
+
+.stories img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    float: left;
+}
+
+.stories h2 {
+    color: #48BB78;
+}
+
+.stories .container .article-body p a {
+    color: #5A67D8;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.newsletter {
+    color: white;
+    background-color: #48BB78;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.form-group {
+    display: inline-block;
+}
+
+.newsletter p {
+    max-width: 450px;
+    justify-self: center;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
 }
